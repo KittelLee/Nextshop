@@ -25,7 +25,7 @@ export default function Layout({ title, children }) {
             </div>
           </nav>
         </header>
-        <main className="container m-auto px-4">{children}</main>
+        <main className="container m-auto mt-4">{children}</main>
         <footer className="flex h-10 justify-center items-center shadow-inner bg-red-100">
           <p>Copyright &copy; 2022 Nextshop</p>
         </footer>
