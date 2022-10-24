@@ -1,7 +1,7 @@
 import bcryptjs from "bcryptjs";
 
 const data = {
-  users: [
+  user: [
     {
       name: "John",
       email: "admin@example.com",
