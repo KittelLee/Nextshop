@@ -13,7 +13,7 @@ export default function profile() {
           <div className={styles.slide} id="slide">
             <div className={styles.card}>
               <div className={styles.profile}>
-                <Image src={pic} width={70} height={70} />
+                <Image src={pic} width={70} height={70} alt="Image" />
                 <div>
                   <h3 className="ml-5">이진욱</h3>
                   <p className="ml-5">[Front-End] Web Developer</p>

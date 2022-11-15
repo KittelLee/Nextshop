@@ -7,6 +7,7 @@ import { getError } from "../utils/error";
 import { toast } from "react-toastify";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import axios from "axios";
 
 export default function LoginScreen() {
   const { data: session } = useSession();
@@ -31,6 +32,11 @@ export default function LoginScreen() {
         email,
         password,
       });
+      await axios
+        .post("/api/auth/loginLog", { provider: "credentials" })
+        .then((res) => {
+          console.log(res.data.message);
+        });
       if (result.error) {
         toast.error(result.error);
       }
