@@ -43,6 +43,9 @@ export default function Layout({ title, children }) {
               <Link href="/profile">
                 <a className="p-2">Profile</a>
               </Link>
+              <Link href="/crypto">
+                <a className="p-2">Crypto</a>
+              </Link>
               <Link href="/cart">
                 <a className="p-2">
                   Cart
