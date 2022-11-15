@@ -133,7 +133,7 @@ export default function LoginScreen() {
 
         <div className="mb-4">
           Don&apos;t have an account? &nbsp;
-          <Link href="register">Register</Link>
+          <Link href={`/register?redirect=${redirect || "/"}`}>Register</Link>
         </div>
         <div className="p-5 bg-gray-500 rounded-lg">
           <div className="mb-4">

@@ -12,4 +12,15 @@
 8. Save cart items
 9. Create Login Form
 10. Connect to MongoDB
-11. Social Login Protocol(SNS)
+11. Create Login API
+12. Add User Menu
+13. Create Shipping Screen
+14. Create Payment Method
+15. Seed Sample Products
+16. Load Products from MongoDB
+17. Create Place order Screen
+18. Create Order Screen
+19. Register Screen
+20. Paypal payment
+21. Order history
+22. Update Profile
