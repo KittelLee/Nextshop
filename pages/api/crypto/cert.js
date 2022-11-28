@@ -1,5 +1,5 @@
-import { getSession } from "next-auth/react";
 import forge from "node-forge";
+import { getSession } from "next-auth/react";
 import CryptoLog from "../../../models/CryptoLog";
 import db from "../../../utils/db";
 
@@ -127,7 +127,7 @@ export default async function handler(req, res) {
     },
   ]);
 
-  // self-sign certificate
+  //self-sign certificate
   cert.sign(caPrivateKey);
 
   let certPem = forge.pki.certificateToPem(cert);
